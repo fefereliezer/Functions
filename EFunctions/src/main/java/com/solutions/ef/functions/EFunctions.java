@@ -5,7 +5,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-public class Functions {
+public class EFunctions {
     public static void setText(@NonNull TextView tv, @Nullable String string){
         if(string == null){
             tv.setText("");
